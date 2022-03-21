@@ -14,7 +14,7 @@ function validName() {
    } else {
         txt.innerHTML = 'Ok!'
         txt.style.color = 'black'
-        let yourNameOk = true;    
+        yourNameOk = true;    
     }
 }
 
@@ -26,7 +26,7 @@ function validEmail() {
     } else {
         txt.innerHTML = "Ok!"
         txt.style.color = 'black'
-        let emailOk = true;     
+        emailOk = true;     
     }
 }
 
@@ -35,17 +35,18 @@ function validSubject() {
     if (subject.value.length > 100) {
         txt.innerHTML = "Subject must have less tham 100 characters"
         txt.style.color = 'red'
+        subjectOk = false; 
     } else {
         txt.innerHTML = "Ok!" 
         txt.style.color = 'black'
-        let subjectOk = true;    
+        subjectOk = true;    
     }
 }
 
-function send() { //Não funciona: não entra no if, imprime apenas o alerta do else//
+function send() {
     if (yourNameOk == true && emailOk == true && subjectOk == true) {
         alert ("Sent!")
     } else {
         alert ("Please, fill the form correctly. Thank you!")
     }
-}te
+}
