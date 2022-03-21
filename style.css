@@ -9,6 +9,7 @@ body {
   
   a {
     font-weight: 700;
+    color: #5d249e;
   }
   
   header {
@@ -46,7 +47,7 @@ body {
       width: 15%;
       align-self: center;
       background-color: #f7e47f;
-      color: #be1ebc;
+      color: #5d249e;
       font-family: 'Space Mono', monospace;
       font-weight: 700;
       border-radius: 8px;
@@ -54,7 +55,7 @@ body {
   }
 
   button:hover {
-    background-color: #be1ebc;
+    background-color: #5d249e;
     color: #f7e47f;
 
   }
