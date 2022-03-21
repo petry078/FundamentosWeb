@@ -3,13 +3,13 @@
 body {
     margin: 0 30vw 0 30vw;
     background-color: black;
-    color: #f8e263;
+    color: #f8e578;
     font-family: 'Space Mono', monospace;
   }
   
   a {
     font-weight: 700;
-    color: #5d249e;
+    color: #ff00ea;
   }
   
   header {
@@ -24,7 +24,7 @@ body {
   img {
     border-radius: 50%;
     width: 15vw;
-    border: 3px solid #5d249e;
+    border: 3px solid #ff00ea;
     padding: 1px;
   }
   
@@ -47,7 +47,7 @@ body {
       width: 15%;
       align-self: center;
       background-color: #f7e47f;
-      color: #5d249e;
+      color: #ff00ea;
       font-family: 'Space Mono', monospace;
       font-weight: 700;
       border-radius: 8px;
@@ -55,7 +55,7 @@ body {
   }
 
   button:hover {
-    background-color: #5d249e;
+    background-color: #ff00ea;
     color: #f7e47f;
 
   }
