@@ -8,8 +8,8 @@ Here are some sceenshots:
 
 ## Home page
 
-![](/screenshots/home.png)
+![](/screenshots/homePage.png)
 
 ## Contact page
 
-![](/screenshots/contact.png)
+![](/screenshots/contactPage.png)
